@@ -1,0 +1,32 @@
+.DS_Store
+war.js
+dist.war
+node_modules
+/dist
+IRSConciliacion-ec-pub.war
+IRSConciliacion-ec.war
+dist-ec.war
+dist-local-ec.war
+dist-local-pe.war
+dist-pe.war
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+#Electron-builder output
+/dist_electron
