@@ -171,14 +171,49 @@ export default new Router({
             component: () => import('../CyL/monrepmoar.vue'),
         },
         
-        /*
+        
         // Administracion
         {
             path: '/CyL/admusuarios',
             name: 'usuarios',
             component: () => import('../CyL/admusuarios.vue'),
         },
-
+        {
+            path: '/CyL/admlocales',
+            name: 'locales',
+            component: () => import('../CyL/admlocales.vue'),
+        },
+        {
+            path: '/CyL/admlocalsave',
+            name: 'localessave',
+            component: () => import('../CyL/admlocalessave.vue'),
+        },
+        {
+            path: '/CyL/admoperadores',
+            name: 'operadores',
+            component: () => import('../CyL/admoperadores.vue'),
+        },
+        {
+            path: '/CyL/admoperadorsave',
+            name: 'operadoressave',
+            component: () => import('../CyL/admoperadoressave.vue'),
+        },
+        {
+            path: '/CyL/admemisores',
+            name: 'emisores',
+            component: () => import('../CyL/admemisores.vue'),
+        },
+        {
+            path: '/CyL/admemisorsave',
+            name: 'emisoressave',
+            component: () => import('../CyL/admemisoressave.vue'),
+        },
+        {
+            path: '/CyL/admusuariossave',
+            name: 'usuariossave',
+            component: () => import('../CyL/admusuariossave.vue'),
+        },
+        /*
         {
             path: '/CyL/admusupcad',
             name: 'usuarios por cadena',

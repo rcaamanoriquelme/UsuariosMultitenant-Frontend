@@ -48,186 +48,24 @@ export default {
         },
 
         {
-          href: "/CyL/product",
-          title: "Inicio",
+          href: "/CyL/admusuarios",
+          title: "Usuarios",
           icon: "pe-7s-diamond",
         },
-
         {
-          title: "Consultas",
-          icon: "pe-7s-browser",
-          child: [
-            {
-              href: "/CyL/constranco",
-              title: "Transacciones Comercio"
-            },
-            {
-              href: "/CyL/consestgen",
-              title: "Estadísticas Generales"
-            },
-            {
-              href: "/CyL/consvenmen",
-              title: "Ventas Mensuales"
-            },
-            {
-              href: "/CyL/conspedncon",
-              title: "Pedidos no conciliados"
-            }
-
-          ]
+          href: "/CyL/admemisores",
+          title: "Emisores",
+          icon: "pe-7s-diamond",
         },
-
         {
-          title: "Conciliacion",
-          icon: "pe-7s-display2",
-          child: [
-
-            {
-              title: "Medios de Pago",
-              child: [
-              {
-                  href: "/CyL/concmoncon",
-                  title: "Monitor de Conciliación"
-                },
-                {
-                  href: "/CyL/conccoavtran",
-                  title: "Consulta Transacciones"
-                },
-                {
-                  href: "/CyL/concconcman",
-                  title: "Conciliacion Manual"
-                },
-                {
-                  href: "/CyL/test",
-                  title: "TEST"
-                } 
-              ]
-            },
-            {
-              title: "Pago de Servicios",
-              child: [
-              {
-                  href: "/CyL/concmonconc",
-                  title: "Monitor de Conciliación"
-                },
-                {
-                  href: "/CyL/conccontranp",
-                  title: "Consulta Transacciones"
-                },
-                {
-                  href: "/CyL/concconmanp",
-                  title: "Conciliacion Manual"
-                }
-              ]
-            }
-          ]
+          href: "/CyL/admoperadores",
+          title: "Operadores",
+          icon: "pe-7s-diamond",
         },
-
         {
-          title: "Informes",
-          icon: "pe-7s-plugin",
-          child: [
-            {
-              href: "/CyL/infoliquida",
-              title: "Liquidacion"
-            },
-            {
-              href: "/CyL/infosalvige",
-              title: "Saldo Vigente"
-            },
-            {
-              href: "/CyL/infovales",
-              title: "Vales"
-            },
-            {
-              title: "Comisiones",
-              child: [
-              {
-                  href: "/CyL/infomedpag",
-                  title: "Medios de Pago"
-                },
-                {
-                  href: "/CyL/infopagserv",
-                  title: "Pago de Servicios"
-                },
-                {
-                  href: "/CyL/infotaroh",
-                  title: "Tarjeta OH!"
-                }
-              ]
-            },           
-            {
-              href: "/CyL/infocarrec",
-              title: "Carta de Reclamo"
-            },
-            {
-              href: "/CyL/infotrxncon",
-              title: "Trx No Conciliadas"
-            } 
-
-          ]
-        },
-
-        {
-          title: "Monitor",
-          icon: "pe-7s-graph2",
-          child: [
-            {
-              href: "/CyL/montraemp",
-              title: "Transacciones Error Medios de Pago"
-            },
-            {
-              href: "/CyL/montraemps",
-              title: "Transacciones Error Pago Servicios"
-            }, 
-            {
-              href: "/CyL/monrepmoar",
-              title: "Reporte Monitoreo de Archivos"
-            }
-          ]
-        },
-
-        {
-          title: "Administracion",
-          icon: "pe-7s-rocket ",
-          child: [
-            {
-              href: "/CyL/admusuarios",
-              title: "Usuarios"
-            },
-            {
-              href: "/CyL/admusupcad",
-              title: "Usuarios por Cadena"
-            },
-            {
-              href: "/CyL/admemisores",
-              title: "Emisores"
-            },
-            {
-              href: "/CyL/admoperador",
-              title: "Operadores"
-            },
-            {
-              href: "/CyL/admmedipag",
-              title: "Medios de Pago"
-            },
-            {
-              href: "/CyL/admmedipemi",
-              title: "MP por Emisor"
-            },
-            {
-              href: "/CyL/admtipocuad",
-              title: "Tipo Cuadratura"
-            },
-            {
-              href: "/CyL/admcomercio",
-              title: "Comercios"
-            },
-            {
-              href: "/CyL/admcadenas",
-              title: "Cadenas"
-            }
-          ]
+          href: "/CyL/admlocales",
+          title: "Locales",
+          icon: "pe-7s-diamond",
         }
       ]
     };
